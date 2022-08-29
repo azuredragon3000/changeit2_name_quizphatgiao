@@ -75,16 +75,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
-    <androidx.appcompat.widget.AppCompatButton
+    <com.myapp.mylibrary.button.CustomButton1
         android:id="@+id/bt_donate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/ll2"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
-        android:background="#CCCCFF"
+        android:backgroundTint="#CCCCFF"
         android:gravity="center"
-        android:text="Xem video lây 50 Vàng" />
+        android:text="   Xem video lây 50 Vàng   " />
    <!-- <androidx.appcompat.widget.AppCompatButton
         android:layout_marginTop="5dp"
         android:layout_width="wrap_content"

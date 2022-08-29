@@ -15,7 +15,7 @@ public class MyApp extends Application {
         SharedPreferences sh = getSharedPreferences("MySharedPref", Context.MODE_PRIVATE);
         persistentData.gold = sh.getInt("gold", 1000);
         persistentData.level = sh.getInt("level", 1);
-        persistentData.rewardTime = sh.getInt("rewardTime", 0);
+        persistentData.rewardTime = sh.getLong("rewardTime", 0);
         for(int i=0;i<50;i++){
             persistentData.dangtrong[i] = sh.getBoolean("dangtrong"+i,false);
             persistentData.datrong[i] = sh.getBoolean("datrong"+i,false);
